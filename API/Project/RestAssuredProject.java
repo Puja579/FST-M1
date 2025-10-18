@@ -23,7 +23,7 @@ public class RestAssuredProject {
 		RequestSpecification RequestSpec;
 		ResponseSpecification ResponseSpec;
 		int keyId;
-		String sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIB59q+e1or+zD83hVJotk6DUnZt9lXbWkjnYQyyI8bW";
+		String sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF5ZodRrf1ita/HCTbPOuNhwhGpPlcH6b8Ds0QubVu3z";
 		
 		@BeforeClass
 		public void setUp() {
@@ -78,3 +78,4 @@ public class RestAssuredProject {
 			
 		}
 }
+
